@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  background: hsl(213, 19%, 18%);
+  border-radius: 15px;
+
+  img {
+    padding: 8px;
+    background: hsl(216, 12%, 8%);
+    border-radius: 50%;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  p {
+    color: hsl(216, 12%, 54%);
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+  .numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+    span {
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      padding: 8px;
+      border-radius: 50%;
+      background-color: hsl(216, 12%, 8%);
+      color: hsl(217, 12%, 63%);
+
+      &:hover {
+        background: hsl(217, 12%, 63%);
+        color: #fff;
+      }
+    }
+    .active {
+      background: hsl(25, 97%, 53%);
+      color: #fff;
+    }
+  }
+  button {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: hsl(25, 97%, 53%);
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.box-2 {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  background: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  text-align: center;
+  display: none;
+  img {
+    width: 100px;
+    margin: 10px 0;
+  }
+  .paragraph {
+    padding: 4px 20px;
+    border-radius: 15px;
+    background: hsl(216, 12%, 8%);
+    fnot-size: 14px;
+    color: hsl(25, 97%, 53%);
+    width: fit-content;
+    margin: 20px auto;
+    span{
+      color: hsl(25, 97%, 53%)
+    }
+  }
+  h2{
+    font-weight: 400;
+    margin-bottom: 10px
+  }
+  p{
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+  }
+}
